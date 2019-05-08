@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "pintab";
+  src:url("fonts/pintab.eot");
+  src:url("fonts/pintab.eot?#iefix") format("embedded-opentype"),
+    url("fonts/pintab.woff") format("woff"),
+    url("fonts/pintab.ttf") format("truetype"),
+    url("fonts/pintab.svg#pintab") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "pintab" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "pintab" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-sketch:before {
+  content: "\62";
+}
+.icon-color-schemes:before {
+  content: "\63";
+}
+.icon-textures:before {
+  content: "\64";
+}
+.icon-tools:before {
+  content: "\65";
+}
+.icon-facebook:before {
+  content: "\66";
+}
+.icon-fonts:before {
+  content: "\67";
+}
+.icon-twitter:before {
+  content: "\68";
+}
+.icon-html:before {
+  content: "\6b";
+}
+.icon-icons:before {
+  content: "\6c";
+}
+.icon-instagram:before {
+  content: "\6d";
+}
+.icon-prototyping:before {
+  content: "\71";
+}
+.icon-seo:before {
+  content: "\72";
+}
+.icon-wordpress:before {
+  content: "\61";
+}
+.icon-bootstrap:before {
+  content: "\69";
+}
+.icon-close:before {
+  content: "\73";
+}
+.icon-close-popup:before {
+  content: "\74";
+}
+.icon-pinterest-big:before {
+  content: "\75";
+}
+.icon-facebook-big:before {
+  content: "\76";
+}
+.icon-google-big:before {
+  content: "\77";
+}
+.icon-tumblr-big:before {
+  content: "\78";
+}
+.icon-twitter-big:before {
+  content: "\79";
+}
+.icon-linkedin-big:before {
+  content: "\7a";
+}
+.icon-photography:before {
+  content: "\6e";
+}
+.icon-photoshop:before {
+  content: "\6f";
+}
+.icon-marketing:before {
+  content: "\70";
+}
+.icon-mockups:before {
+  content: "\41";
+}
+.icon-vectors:before {
+  content: "\6a";
+}
